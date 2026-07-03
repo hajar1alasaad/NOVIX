@@ -1,5 +1,8 @@
 # See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Agent runtime data — contains logs that may include partial API key fragments
+artifacts/api-server/agents-data/
+
 # compiled output
 dist
 tmp

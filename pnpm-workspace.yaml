@@ -33,6 +33,18 @@ minimumReleaseAgeExclude:
   # this setting guards against does not apply to our own packages.
   - '@replit/*'
   - stripe-replit-sync
+  # Expo and React Native ecosystem — large, trusted publishers with fast release cycles.
+  # EAS Build and local installs need these without the age gate.
+  - 'expo'
+  - '@expo/*'
+  - 'expo-*'
+  - 'react-native'
+  - 'react-native-*'
+  - '@react-native/*'
+  - '@react-native-*'
+  - '@react-navigation/*'
+  - 'babel-preset-expo'
+  - '@expo-google-fonts/*'
 
 packages:
   - artifacts/*
